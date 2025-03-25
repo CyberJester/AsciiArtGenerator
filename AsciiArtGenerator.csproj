@@ -84,13 +84,19 @@
     <None Include="Resources\Plus.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Content\plus.png" />
+    <None Include="Properties\Content\plus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Content\Minus.png" />
+    <None Include="Properties\Content\Minus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\Content\JesterIcon.ico" />
+    <Content Include="Properties\Content\JesterIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
